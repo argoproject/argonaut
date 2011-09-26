@@ -1,0 +1,377 @@
+/*   
+Theme Name: Argonaut
+Description: Argo Child theme
+Author: NPR
+Template: argo-foundation 
+Version: 1.0
+
+*/
+
+@import url(../argo-foundation/css/960.css);
+@import url(../argo-foundation/css/foundation.css);
+
+/*.container_12 {
+background: #fff url(../argo-foundation/img/dev-images/12_col.gif) repeat-y;
+}*/
+
+
+@font-face {
+	font-family: 'ChunkFiveRegular';
+	src: url('font/Chunkfive-webfont.eot');
+	src: local('☺'), url('font/Chunkfive-webfont.woff') format('woff'), url('font/Chunkfive-webfont.ttf') format('truetype'), url('font/Chunkfive-webfont.svg#webfontb5K2fJwj') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* WRAPPER */
+
+body {
+background-color: #e5e5e5;
+}
+
+#wrapper {
+margin: 10px auto;
+width: 970px;
+background-color: #fff;
+border: 1px solid #cfcece;
+border-top: none;
+}
+
+
+
+/************* GLOBAL NAVIGATION ******************/
+
+.global-nav-bg {
+height: 35px;
+background: #373737 url(img/global-nav-gradient.jpg) repeat-x;
+margin-bottom: 0;
+}
+
+.global-nav {
+height: 33px;
+}
+
+.station-home {
+text-indent: -10000px;
+width:70px;
+height: 37px !important;
+background: transparent url(parent-logo.png) no-repeat;
+margin: 8px 10px 0 0 !important;
+border: none !important;
+}
+
+.station-home a {
+display: block;
+width: 70px;
+height: 37px;
+}
+
+.global-nav li {
+font-family: helvetica, arial, sans-serif;
+margin-top: 10px;
+padding-left: 10px;
+border-left: 1px solid #fff;
+line-height: 11px;
+}
+
+.global-nav a {
+color: #fff;
+font-weight: normal;
+font-size: 11px !important;
+}
+
+.global-nav .support a {
+background-color: #333;
+color: #fff;
+border: 1px solid #666;
+}
+
+.global-nav .support a:hover {
+color: #fff;
+background-color: #000;
+}
+
+.global-nav .network-branding {
+top: 0;
+border: 1px solid #a2a2a2;
+}
+
+/************* BRANDING ******************/
+
+#header {
+height: 202px;
+padding-top: 5px;
+background: transparent url(img/header-bg.png) repeat-x;
+}
+
+.branding h1 {
+text-indent: -10000px;
+margin: 10px 0 0 0 !important;
+font-family: Helvetica, Arial, sans-serif;
+padding: 0;
+}
+
+.branding h1 a {
+display: block;
+background: transparent url(img/argonaut-logo.png) no-repeat;
+width: 344px; 
+height: 69px;
+}
+
+.branding h2 {
+margin: 0 !important;
+font-family: Helvetica, Arial, sans-serif;
+padding: 0;
+font-size: 30px;
+}
+
+.features img {
+border: 1px solid #ccc;
+}
+
+
+/************* MAIN NAVIGATION ******************/
+
+#main-nav {
+margin-top: -45px;
+padding: 5px 0 0 10px;
+}
+
+#topnav li {
+}
+
+#topnav li a {
+background-color: #eee;
+color: #666;
+background-image: url(../argo-foundation/img/arrow-down.png), -moz-linear-gradient(100% 100% 90deg, #efeded, #e4e4e4);
+background-image: url(../argo-foundation/img/arrow-down.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#efeded), to(#e4e4e4));
+font-size: 14px;
+padding: 5px 22px 7px 5px;
+margin-right: 5px;
+border: 1px solid #d5d4d4;
+background-position: 94% 50%;
+}
+
+#topnav li:hover a, #topnav li a:hover { 
+background-color: #2d2b26;
+background-image: url(../argo-foundation/img/arrow-hover.png), -moz-linear-gradient(100% 100% 90deg, #2d2b26, #49453d);
+background-image: url(../argo-foundation/img/arrow-hover.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#49453d), to(#2d2b26));
+color: #fff; 
+border-bottom: 8px solid #2d2b26;
+}
+
+#topnav li .sub {
+top: 35px; 
+border: 4px solid #2d2b26;
+}
+
+#topnav .sub .inner-menu a {
+color: #065278;
+font-size: 14px;
+}
+
+#topnav .sub .inner-menu a:hover {
+color: #065278;
+}
+
+#follow-us {
+right: 215px;
+top: 6px;
+}
+
+#follow-us a {
+border: 1px solid #ccc;
+}
+
+#searchform {
+right: 5px;
+top: 6px;
+}
+
+.ie6 #follow-us, .ie6 #searchform {
+top: 0;
+}
+
+/************* DONT MISS ******************/
+
+#topics-bar {
+border-top: none;
+}
+
+#topics-bar li a {
+font-size: 13px;
+font-weight: bold;
+background-color: transparent;
+padding: 2px 10px 2px 5px;
+color: #065278;
+line-height: 1;
+border-right: 1px solid #ddd;
+}
+
+#topics-bar li a:hover {
+background-color: transparent;
+text-decoration: underline;
+}
+
+#topics-bar h4 {
+color: #065278;
+font-family: ChunkFiveRegular, helvetica, arial, sans-serif;
+font-size: 16px;
+line-height: 1.4;
+letter-spacing: .04em;
+}
+
+
+#topics-bar h5 a {
+font-size: 14px;
+font-weight: bold;
+color: #065278;
+
+}
+
+/************* CONTENT WELL ******************/
+
+#content img {
+border: 1px solid #666;
+}
+
+#content h2 {
+margin: 20px 0 10px 0;
+font-family: ChunkFiveRegular, helvetica, arial, sans-serif;
+font-size: 30px;
+line-height: 1.1;
+color: #333;
+}
+
+#content h2 a {
+color: #333;
+}
+
+.single #content h2 {
+margin: 10px 0;
+font-size: 30px;
+}
+
+.post blockquote {
+background-color: #f4f4f4;
+}
+
+.category .page-title, .tag .page-title, .page .entry-title {
+color: #333;
+}
+
+#content .pull-quote, #footer h3 {
+font-family: 'ChunkFiveRegular', helvetica, arial, sans-serif;
+font-style: normal;
+}
+
+#content .pull-quote p, #content .pull-quote h6 {
+font-style: normal;
+font-weight: normal;
+color: #666;
+}
+
+#content .pull-quote h6 {
+font-size: 14px;
+}
+
+#content a, #content .post-meta h5 a{
+color: #065278;
+}
+
+.ie6 .category-topics a, .ie6 .category-articles a {
+background: transparent !important;
+border: none !important;
+}
+
+
+
+
+/************* SIDEBAR ******************/
+
+#sidebar h2, #sidebar h3 {
+font-family: 'ChunkFiveRegular', helvetica, arial, sans-serif;
+font-size: 28px;
+text-transform: none;
+color: #fff;
+padding: 5px;
+margin-bottom: 5px;
+background-color: #065278;
+background-image: -moz-linear-gradient(100% 100% 90deg, #e9e8e8, #d3d1d1);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e9e8e8), to(#d3d1d1));
+text-align: center;
+border: 1px solid #ddd;
+text-shadow: 1px 1px 3px #888; 
+}
+
+#sidebar li, #sidebar p {
+font-size: 11px;
+line-height: 1.6em;
+color: #999;
+}
+
+/* blogroll */
+
+.blogroll li a {
+white-space: normal;
+}
+
+/*most commented*/
+
+.level3 {
+background-color: #999;
+color: #fff;
+}
+
+.level2 {
+background-color: #ccc;
+}
+
+.level1 {
+background-color: #eee;
+}
+
+/*buttons*/
+
+#sidebar .donate h3, #sidebar .donate p {
+color: #fff;
+}
+
+#sidebar .button, #sidebar .donate .button {
+font-family: helvetica, arial, sans-serif;
+background-color: #999;
+color: #fff;
+border: 1px solid #909090;
+}
+
+#sidebar .button:hover, #sidebar .donate .button:hover {
+background-color: #2d2b26;
+}
+
+/*greatest hits */
+
+.widget_nav_menu h2 {
+font-family: 'ChunkFiveRegular', helvetica, arial, sans-serif;
+font-size: 25px;
+color: #216DC6;
+}
+
+#menu-greatest-hits li {
+font-family: 'ChunkFiveRegular', helvetica, arial, sans-serif;
+color: #666;
+font-size: 24px;
+margin-left: 35px;
+}
+
+#menu-greatest-hits a {
+font-family: Helvetica, Arial, sans-serif;
+color: #666;
+font-weight: normal;
+}
+
+/************* FOOTER ******************/
+
+#site-footer {
+background-color: #333;
+color: #999;
+}
