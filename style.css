@@ -201,7 +201,7 @@ background-color: #f4f4f4;
 color: #333;
 }
 
-#content .pull-quote, #site-footer h3 {
+#content .pull-quote, #site-footer h2, #site-footer h3 {
 font-family: 'ChunkFiveRegular', helvetica, arial, sans-serif;
 font-style: normal;
 }
