@@ -1,24 +1,19 @@
 /*   
 Theme Name: Argonaut
-Description: Argo Child theme
-Author: NPR
-Template: argo-foundation 
+Description: An Argo child theme
+Author: Project Argo
+Template: argo 
 Version: 1.0
 
 */
 
-@import url(../argo-foundation/css/960.css);
-@import url(../argo-foundation/css/foundation.css);
-
-/*.container_12 {
-background: #fff url(../argo-foundation/img/dev-images/12_col.gif) repeat-y;
-}*/
-
+@import url(../argo/css/960.css);
+@import url(../argo/css/foundation.css);
 
 @font-face {
 	font-family: 'ChunkFiveRegular';
 	src: url('font/Chunkfive-webfont.eot');
-	src: local('☺'), url('font/Chunkfive-webfont.woff') format('woff'), url('font/Chunkfive-webfont.ttf') format('truetype'), url('font/Chunkfive-webfont.svg#webfontb5K2fJwj') format('svg');
+	src: local('☺'), url('font/Chunkfive-webfont.woff') format('woff'), url('font/Chunkfive-webfont.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -29,14 +24,13 @@ body {
 background-color: #e5e5e5;
 }
 
-#wrapper {
+#page {
 margin: 10px auto;
 width: 970px;
 background-color: #fff;
 border: 1px solid #cfcece;
 border-top: none;
 }
-
 
 
 /************* GLOBAL NAVIGATION ******************/
@@ -49,21 +43,6 @@ margin-bottom: 0;
 
 .global-nav {
 height: 33px;
-}
-
-.station-home {
-text-indent: -10000px;
-width:70px;
-height: 37px !important;
-background: transparent url(parent-logo.png) no-repeat;
-margin: 8px 10px 0 0 !important;
-border: none !important;
-}
-
-.station-home a {
-display: block;
-width: 70px;
-height: 37px;
 }
 
 .global-nav li {
@@ -80,49 +59,12 @@ font-weight: normal;
 font-size: 11px !important;
 }
 
-.global-nav .support a {
-background-color: #333;
-color: #fff;
-border: 1px solid #666;
-}
-
-.global-nav .support a:hover {
-color: #fff;
-background-color: #000;
-}
-
-.global-nav .network-branding {
-top: 0;
-border: 1px solid #a2a2a2;
-}
-
 /************* BRANDING ******************/
 
 #header {
 height: 202px;
 padding-top: 5px;
 background: transparent url(img/header-bg.png) repeat-x;
-}
-
-.branding h1 {
-text-indent: -10000px;
-margin: 10px 0 0 0 !important;
-font-family: Helvetica, Arial, sans-serif;
-padding: 0;
-}
-
-.branding h1 a {
-display: block;
-background: transparent url(img/argonaut-logo.png) no-repeat;
-width: 344px; 
-height: 69px;
-}
-
-.branding h2 {
-margin: 0 !important;
-font-family: Helvetica, Arial, sans-serif;
-padding: 0;
-font-size: 30px;
 }
 
 .features img {
@@ -175,7 +117,6 @@ color: #065278;
 }
 
 #follow-us {
-right: 215px;
 top: 6px;
 }
 
@@ -214,9 +155,9 @@ text-decoration: underline;
 }
 
 #topics-bar h4 {
-color: #065278;
-font-family: ChunkFiveRegular, helvetica, arial, sans-serif;
-font-size: 16px;
+color: #333;
+font-family: helvetica, arial, sans-serif;
+font-size: 14px;
 line-height: 1.4;
 letter-spacing: .04em;
 }
@@ -235,9 +176,9 @@ color: #065278;
 border: 1px solid #666;
 }
 
-#content h2 {
+#content h2, .entry-title, .page-title {
 margin: 20px 0 10px 0;
-font-family: ChunkFiveRegular, helvetica, arial, sans-serif;
+font-family: helvetica, arial, sans-serif;
 font-size: 30px;
 line-height: 1.1;
 color: #333;
@@ -260,7 +201,7 @@ background-color: #f4f4f4;
 color: #333;
 }
 
-#content .pull-quote, #footer h3 {
+#content .pull-quote, #site-footer h3 {
 font-family: 'ChunkFiveRegular', helvetica, arial, sans-serif;
 font-style: normal;
 }
@@ -285,8 +226,6 @@ border: none !important;
 }
 
 
-
-
 /************* SIDEBAR ******************/
 
 #sidebar h2, #sidebar h3 {
@@ -308,27 +247,6 @@ text-shadow: 1px 1px 3px #888;
 font-size: 11px;
 line-height: 1.6em;
 color: #999;
-}
-
-/* blogroll */
-
-.blogroll li a {
-white-space: normal;
-}
-
-/*most commented*/
-
-.level3 {
-background-color: #999;
-color: #fff;
-}
-
-.level2 {
-background-color: #ccc;
-}
-
-.level1 {
-background-color: #eee;
 }
 
 /*buttons*/
