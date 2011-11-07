@@ -85,8 +85,8 @@ padding: 5px 0 0 10px;
 #topnav li a {
 background-color: #eee;
 color: #666;
-background-image: url(../argo-foundation/img/arrow-down.png), -moz-linear-gradient(100% 100% 90deg, #efeded, #e4e4e4);
-background-image: url(../argo-foundation/img/arrow-down.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#efeded), to(#e4e4e4));
+background-image: url(img/arrow-down.png), -moz-linear-gradient(100% 100% 90deg, #efeded, #e4e4e4);
+background-image: url(img/arrow-down.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#efeded), to(#e4e4e4));
 font-size: 14px;
 padding: 5px 22px 7px 5px;
 margin-right: 5px;
@@ -96,8 +96,8 @@ background-position: 94% 50%;
 
 #topnav li:hover a, #topnav li a:hover { 
 background-color: #2d2b26;
-background-image: url(../argo-foundation/img/arrow-hover.png), -moz-linear-gradient(100% 100% 90deg, #2d2b26, #49453d);
-background-image: url(../argo-foundation/img/arrow-hover.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#49453d), to(#2d2b26));
+background-image: url(img/arrow-hover.png), -moz-linear-gradient(100% 100% 90deg, #2d2b26, #49453d);
+background-image: url(img/arrow-hover.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#49453d), to(#2d2b26));
 color: #fff; 
 border-bottom: 8px solid #2d2b26;
 }
